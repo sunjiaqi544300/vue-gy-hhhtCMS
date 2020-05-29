@@ -1,0 +1,84 @@
+.w-selectOption{
+  border: 1px #629ef6 solid;
+  background: #FFFFFF;
+  border-radius: 4px;
+  overflow: auto;
+  max-height: 300px;
+}
+.w-selectOption input{
+  margin: 9px 3px;
+  outline: none;
+  border: none;
+  width: 175px;
+  height: 28px;
+  border: 1px #c2c2c2 solid;
+  padding-left: 6px;
+  border-radius: 4px;
+}
+
+.w-selectOption p{
+  line-height: 40px;
+  /*border-bottom: 1px #EDEDED solid;*/
+  padding-left: 10px;
+}
+.w-selectOption p:hover{
+  background: #dae3f1;
+}
+.selectTable-one:after,
+.selectTable-two:after,
+.selectTable-three:after,
+.selectTable-four:after,
+.selectTable-five:after,
+.selectTable-six:after,
+.selectTable-seven:after,
+.selectTable-eight:after,
+.selectTable-nine:after,
+.selectTable-ten:after,
+.selectTable-eleven:after,
+.selectTable-twelve:after,
+.selectTable-product_id:after,
+.selectTable-product_name:after,.selectTable-dist:after,.selectTable-strategy:after,.selectTable-mode:after,
+.selectTable-data:after,.selectTable-month:after,.selectTable-weeks:after{
+  content: '\E603';
+  display: block;
+  width: 20px;
+  /*height: 6px;*/
+  position: absolute;
+  top: 0;
+  right: 10px;
+  line-height: 32px;
+  font-family: element-icons!important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*表头颜色*/
+.table-header-class-name{
+  background: red;
+}
+
+/*表格第一行颜色*/
+.el-table .warning-row {
+  background: #f0f9eb;
+}
+.el-table .color_red{
+  color: red;
+}
+.el-table .color_blue{
+  color: #629ef6;
+  cursor: pointer;
+}
+.el-table .table-color-wxx{
+  background: #f5f7fa;
+}
+.el-table .table-color2n{
+  background: #f2f5fe;
+}
+.table-hover:hover{
+  box-shadow: 1px 1px 10px #CCCCCC;
+}

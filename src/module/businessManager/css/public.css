@@ -1,0 +1,114 @@
+.box {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 7px #ccc;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*margin: 1rem;*/
+    /*杨万超 2019-3-19 新增右模块下内距*/
+    padding-bottom: 15px;
+    /*end  */
+}
+
+.search {
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.search>span {
+    margin-left: 1rem;
+    color: #666;
+}
+
+.search>.title {
+    color: #629ef6;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn {
+    float: right;
+    margin: 0 0.5rem;
+}
+
+.table-box {
+    margin: 1rem 1rem 0 1rem;
+}
+
+.shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #333;
+    opacity: 0.5;
+    z-index: 99;
+    /*display: none;*/
+}
+
+.pop {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30rem;
+    z-index: 100;
+    border-radius: 5px;
+    background: #fff;
+    overflow: hidden;
+    /*display: none;*/
+}
+
+.pop-title {
+    line-height: 2.5rem;
+    background: #2b63b6;
+    color: #fff;
+    border: 1px solid #2b63b6;
+}
+
+.pop-title span {
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+.pop-title i {
+    margin: 0.8rem 0.5rem 0 0;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-size: 1rem;
+}
+
+.pop-content {
+    margin: 2.5rem 0
+}
+
+.pop-content>div {
+    margin: 1rem 1.5rem;
+    color: #666666;
+}
+
+.pop-content>div>span {
+    width: 7rem;
+    display: inline-block;
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+.pop-content .tip {
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.pop-footer {
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.pages {
+    margin: 2rem 0;
+    text-align: center;
+}

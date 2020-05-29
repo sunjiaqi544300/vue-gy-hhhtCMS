@@ -1,0 +1,378 @@
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #c2c6cd;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #c2c6cd;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #c2c6cd;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #c2c6cd;
+}
+.content{
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.left_out{
+  width: 380px;
+  /*height: 100%;*/
+  /* display: none; */
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  bottom: 10px;
+  z-index: 2001;
+  background: #FFFFFF;
+  overflow: hidden;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.65);
+  border-radius: 6px;
+}
+.left_out h2{
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+.left_out .left{
+  width: 398px;
+  height: 100%;
+  /*background: #2e323d;*/
+  overflow-y: auto;
+  z-index: 10;
+  box-sizing: border-box;
+  padding: 0 10px 40px;
+}
+.left_out .left .button{
+  margin-top: 40px;
+  text-align: center;
+  padding-bottom: 88px;
+}
+.left_out .left .button button{
+  text-align: center;
+  width: 73px;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 6px;
+}
+.left_out .left .button button:nth-child(2){
+  background: #409EFF;
+  color: #FFFFFF;
+  margin-left: 70px;
+}
+.left_out .left h3{
+  line-height: 45px;
+  font-size: 16px;
+  color: #666;
+  /*text-align: center;*/
+  position: relative;
+  font-weight: bolder;
+}
+.left_out .left h3 span{
+  font-weight: bolder;
+  font-size: 16px;
+}
+/*.left_out .left h3:after{*/
+  /*content: '';*/
+  /*display: block;*/
+  /*height: 1px;*/
+  /*width: 100%;*/
+  /*position: absolute;*/
+  /*bottom: 0;*/
+  /*left: 0;*/
+  /*background: url("../images/h2_border.png") no-repeat center center;*/
+/*}*/
+.left_out .left p{
+  color: #666;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.left_out .left .title_3{
+  font-weight: normal;
+}
+.select_left{
+  margin: 10px 0;
+  position: relative;
+}
+.select_left .props{
+  position: absolute;
+  left: 159px;
+  top: 0;
+  font-size: 12px;
+  line-height: 28px;
+  color: red;
+}
+.left_out .left .last{
+  margin-bottom: 0;
+}
+.left_out .left .first{
+  margin-top: 0;
+}
+.select_left>div{
+  width: 210px;
+}
+.select_left .label{
+  display: block;
+  float: left;
+  width: 147px;
+  text-align: right;
+  line-height: 28px;
+  font-size: 14px;
+  color: #363636;
+}
+.select_left .select{
+  position: relative;
+  display: block;
+  float: left;
+}
+.select_left .select_two{
+  color: #363636;
+}
+.select_left .select_two>div{
+  width: 93px;
+}
+.select_left .select_two>div:last-child{
+  float: right;
+}
+.select_left .select .input{
+  display: block;
+  outline: none;
+  padding-left: 15px;
+  width: 193px;
+  height: 28px;
+  line-height: 28px;
+  background: #FFFFFF;
+  border: 1px #dcdcdc solid;
+  border-radius: 4px;
+  font-size: inherit;
+}
+.select .option{
+  position: absolute;
+  top: 32px;
+  z-index: 100;
+  border: 1px #999999 solid;
+  width: 210px;
+  max-height: 200px;
+  background: #FFFFFF;
+  overflow-y: auto;
+}
+.select .option span{
+  padding-left: 10px;
+  display: block;
+  line-height: 26px;
+  cursor: pointer;
+}
+.select .option span:hover{
+  background: #34495E;
+  color: #FFFFFF;
+}
+.checkbox{
+  /*position: absolute;*/
+  /*top: 32px;*/
+  /*z-index: 100;*/
+  background: #FFFFFF;
+  /*width: 230px;*/
+}
+.checkbox label{
+  /*color: #FFFFFF;*/
+  float: left;
+  width: 89px;
+  margin: 6px 0;
+}
+.checkbox label:nth-child(1){
+  /*color: #FFFFFF;*/
+}
+.el-dropdown-link{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.right_main{
+  position: absolute;
+  height: 100%;
+  /* width: 500px; */
+  /* top:0px; */
+  /* display: none; */
+}
+.footer_table{
+  height: 40%;
+}
+.fixIcon{
+  position: fixed;
+  right: 20px;
+  bottom: 60px;
+}
+.radio{
+  text-align: right;
+  width: 240px;
+}
+.radio label{
+  width: 30%;
+  float: left;
+  color: #363636;
+  margin: 8px 0;
+}
+.radio label:nth-child(1){
+  margin-left: 55px;
+}
+.select_left_information .label{
+  width: 88px;
+  color: #333333;
+}
+.smallInput_outside{
+  width: 210px;
+  float: left;
+}
+.smallInput_outside div:last-child{
+  float: right;
+}
+.select_left_small .smallInput{
+  width: 93px;
+}
+.select_left_small .smallInpute{
+  width: 93px;
+}
+.select_left_small .smallInputtwo{
+  width: 93px;
+}
+.select_left_small .smallInputs{
+  width: 93px;
+}
+.smallInpute:after{
+  content: '万';
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 28px;
+  width: 30px;
+  border-left: 1px #eeeeee solid;
+  text-align: center;
+  color: #000000;
+}
+.smallInput:after{
+  content: '平';
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 28px;
+  width: 30px;
+  border-left: 1px #eeeeee solid;
+  text-align: center;
+  color: #000000;
+}
+.smallInputtwo:after{
+  content: '万/箱';
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 28px;
+  width: 50px;
+  border-left: 1px #eeeeee solid;
+  text-align: center;
+  color: #000000;
+}
+.smallInputs:after{
+  content: '条';
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 28px;
+  width: 30px;
+  border-left: 1px #eeeeee solid;
+  text-align: center;
+  color: #000000;
+}
+.select_left_small{
+  color: #FFFFFF;
+}
+.verification{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  margin: auto;
+  width: 400px;
+  height: 280px;
+  background: #e6e6e6;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.verification h3{
+  line-height: 30px;
+  background: #464c5b;
+  color: #FFFFFF;font-size: 16px;
+}
+.verification span{
+  line-height: 26px;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.verification_main .left, .verification_main .right{
+  width: 50%;
+  float: left;
+}
+.verification_main .left div{
+  background: #FFFFFF;
+}
+.verification_main div div{
+  margin: 0 6px;
+}
+.verification_main .left{
+  line-height: 26px;
+}
+.verification_main .right p{
+  background: #FFFFFF;
+  line-height: 62.5px;
+  margin-bottom: 10px;
+}
+/*广告*/
+.adertRight{
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 20%;
+  background: #FFFFFF;
+}
+.adertRight div{
+  width: 100%;
+  height: 100%;
+  /* background: url('../images/bole-manage.jpg') no-repeat; */
+  background-size: 100%;
+}
+.adertRight img{
+  width: 100%;
+  margin-top: 60px;
+}
+.necessary_options:after{
+  content: '*';
+  color: #f56c6c;
+  margin-left: 6px;
+}
+.city_top_title{
+  position:absolute;
+  top: 0;
+  background: #ffffff;
+  z-index: 10;
+  padding: 8px;
+  width: 483px;
+}
